@@ -17,9 +17,13 @@ header{
 }
 h1{
     font-size: 3.5rem;
+    color:whitesmoke;
+}
+h5{
+    color:whitesmoke
 }
 a:link, a:visited, a:hover, a:active{
-    color: #212529;
+    color: whitesmoke;
     text-decoration: none;
 }
 ul{
@@ -28,7 +32,7 @@ ul{
 .btn {
     padding: 20px;
     font-size: 18px;
-    border: solid #212529 1px;
+    border: solid whitesmoke 1px;
     border-radius: 300px;
     display: inline-block;
     margin: auto;
@@ -39,7 +43,11 @@ ul{
     background-color: rgba(33, 37, 41, 0.1);
 }
 .btn:hover {
-    background-color: white;
+    background-color: whitesmoke;
     text-decoration: none;
     transform: scale(1.1);
+}
+.btn:hover a {
+    color: #212529;
+    transition: 0.8s;
 }
